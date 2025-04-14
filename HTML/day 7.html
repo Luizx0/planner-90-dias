@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-br">    
+<head>
+    <meta charset="UTF">
+    <title>Mini Biografia</title>
+    <meta name="description" content="Uma mini biografia para o sétimo desafio do meu projeto dev em 90 dias."
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--DIA 7-->
+<body>
+    <header>
+        <h1>Mini Biografia</h1>
+        <p>Apenas uma Uma mini biografia para o sétimo desafio do meu projeto dev em 90 dias como pagina pessoal. </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mim</h2>
+            <p>Olá, me chamo Luiz Araujo e seja bem vindo a minha vida, no qual além de conturbada é muito ativa, estou a procura de <strong>estágio</strong> e aproveitando para desenvolver meus próprios projetos além de dedicação constante a faculdade.</p>
+            <p>Completei 18 anos recentemente e ja trabalhei nas ferias em um projeto temporario da saude, mas agora procuro um estágio, pois nao tenho como conseguir um emprego CLT pela reservista que só pego mais ao fim do ano.</p>
+            <p>Decido deixar sempre uma rotina bem agitada e cheia, para poder aproveitar meu dia com o máximo de aproveitamento sempre, como dizem.. <br><em>"cabeça vazia é oficina do diabo"</em></p>
+            <p>Este meu projeto em <abbr title ="HyperText Markup Language">HTML</abbr> está sendo de grande aprendizado, além de divertido ver minha evolução constante. Sigo ansioso para aplicar o <abbr title="Cascading Style Sheets">CSS</abbr> e o <abbr title="JavaScript">JS</abbr> ao <abbr title ="HyperText Markup Language">HTML</abbr>.</p>
+            <br>
+        </section>
+        <!--Pergunta multipla escolha-->
+        <section>
+            <h3>Um simples quiz sobre HTML</h3>
+            <h4>HTML é que tipo de linguagem?</h4>
+            <form>
+                <input type="radio" value="Program" id="p1a" name="pergunta1">
+                    <label for="p1a">Linguagem de Programação</label><br>
+                <input type="radio" value="Marc" id="p1b" name="pergunta1">
+                    <label for="p1b">Linguagem de Marcação</label><br>
+                <input type="radio" value="Narr" id="p1c" name="pergunta1">
+                    <label for="p1c">Linguagem de Narração</label><br>
+            </form>
+        </section>
+        <!--Pergunta de texto-->
+        <section>
+            <h4>Quais o tipo de linguagem que é o html, css e js?</h4>
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta">
+            </form>
+        </section>
+        <!--Imput de senha-->
+        <section>
+            <h4>Escreva um exemplo de senha forte</h4>
+            <form>
+                <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha">
+            </form>
+        </section>
+        <!--Imput de data-->
+        <section>
+            <h4>Data de Nascimento</h4>
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+        <!--Pergunta multipla escolha-->
+        <section>
+            <h4>Quais sao linguagem Back-End?</h4>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Java">
+                    <label for="p5a">Java</label>
+                <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
+                    <label for="p5b">HTML</label>
+                <input type="checkbox" id="p5c" name="pergunta5" value="Python">
+                    <label for="p5c">Python</label>
+                <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
+                    <label for="p5d">CSS</label>
+            </form>
+        </section>
+        <!--Upload de arquivo-->
+        <section>
+            <h4>Faça o upload de um arquivo html</h4>
+            <form>
+                <input type="file" id="p6" name="pergunta6">
+            </form>
+        </section>
+        <!--Menu suspenso/Drop Down-->
+        <section>
+            <h4>Selecione o atributo do intup que define o seu tipo</h4>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                    <option value="name">name</option>
+                </select>
+            </form>
+            <br>
+        </section>
+        <!--Tabela de Pontuação-->
+        <section>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Nao desista! Cada tentativa é uma oportunidade de aprender</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Boa. Mas ainda tem como melhorar estudando mais</td>
+                    </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>Você é quase perfeito ein. Porém esforço nunca é demais</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Muito bem, amassou este teste</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="2">Boa Sorte na próxima, Disciplina supera tudo!</td>
+                </tfoot>
+            </table>
+        </section>
+        <!--Lista-->
+        <section>
+            <h4>Verifique as respostas</h4>
+            <details>
+                <summary>Clique aqui para ver as repostas</summary>
+                <ol>
+                    <li>Linguagem de marcação</li>
+                    <li>Front-End</li>
+                    <li>Pe1ri@ta</li>
+                    <li>16/03/2007</li>
+                    <li>Java e Python</li>
+                    <li>Arquivo com extensão .html</li>
+                    <li>type</li>
+                </ol>
+            </details>
+        </section>
+        <!--Formulario de feedback-->
+        <section>
+            <h4>Nôs de seu feedback</h4>
+            <form>
+                <fieldset>
+                    <legend>Avaliação</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email"><br>
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Deixe seu comentario"></textarea><br>
+                    <button onclick="alert('Feedback Enviado')">Envie o feedback</button>
+                    </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Para acompanhar meus projetos no <a href="https://github.com/luizx0" target="_blank">Github</a></p>
+        <p>Para acompanhar minha página de projeto de cada dia <a href="index.html" target="_blank">Clique aqui</a></p>
+        <p>&copy Projeto day7 - Luizx</p>
+    </footer>
+</body>
