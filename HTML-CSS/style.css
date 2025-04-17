@@ -1,9 +1,9 @@
 /*Dia 9*/
 .dia_1 {
-    padding: 20px;         /* Espaço interno */
-    margin: 30px auto;     /* Espaço externo */
-    border: 2px solid #555;  /* Borda */
-    max-width: 600px;   /*largura maxima*/
+    padding: 20px;      
+    margin: 30px auto;    
+    border: 2px solid #555;
+    max-width: 600px;  
     background-color: #f9f9f9;
   }
   
@@ -70,4 +70,21 @@ input[type="text"] {
   }
 
   /*Dia 12*/
-  
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #ffffff;
+}
+.item {
+  background-color: #4CAF50;   
+  color: white;            
+  padding: 40px;             
+  border-radius: 10px;      
+  text-align: center;         
+  width: 200px;               
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
