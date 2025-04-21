@@ -1,0 +1,152 @@
+/*Dia 9*/
+.dia_1 {
+    padding: 20px;      
+    margin: 30px auto;    
+    border: 2px solid #555;
+    max-width: 600px;  
+    background-color: #f9f9f9;
+  }
+  
+/*Dia 10*/
+  .botao-hover {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.botao-hover:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/*Dia 11*/
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    padding: 40px;
+}
+.h3 {
+    text-align: center;
+    color: #333;
+}
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  /*Dia 12*/
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #ffffff;
+}
+.item {
+  background-color: #4CAF50;   
+  color: white;            
+  padding: 40px;             
+  border-radius: 10px;      
+  text-align: center;         
+  width: 200px;               
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*Dia 13*/
+.body-d1 {
+font-family: sans-serif;
+margin: 0;
+padding: 40px;
+background-color: #f3f4f6;
+display: flex;
+justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  max-width: 320px;           
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;            
+  transition: transform 0.3s ease;
+}
+
+/* Efeito no hover */
+.card:hover {
+  transform: scale(1.03);  
+}
+
+/* Imagem do topo */
+.card img {
+  width: 100%;
+  display: block;
+}
+
+/* Conteúdo interno */
+.card-content {
+  padding: 16px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.card-content button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-content button:hover {
+  background-color: #0056b3;
+}
