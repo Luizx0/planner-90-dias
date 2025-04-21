@@ -240,3 +240,65 @@ input[type="text"] {
   width: 200px;               
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.body-d1 {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 40px;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+}
+
+/*Dia 13*/
+.card {
+  background-color: white;
+  width: 100%;
+  max-width: 320px;           
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;            
+  transition: transform 0.3s ease;
+}
+
+/* Efeito no hover */
+.card:hover {
+  transform: scale(1.03);      
+}
+
+/* Imagem do topo */
+.card img {
+  width: 100%;
+  display: block;
+}
+
+/* Conteúdo interno */
+.card-content {
+  padding: 16px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.card-content button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-content button:hover {
+  background-color: #0056b3;
+}
