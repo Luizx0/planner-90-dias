@@ -2,14 +2,22 @@
 #include <stdlib.h>
 
 int main() {
-    int a, b;
+    int a;
+    int continuar = 1;
 
-    if (a/2=0) {
-        printf("numero par")
+    while (continuar) { 
+        printf("Insira um valor: ");
+        scanf("%d", &a);
+
+        if (a % 2 == 0) {
+            printf("Numero par\n");
+        } else {
+            printf("Numero impar\n");
+        }
+
+        printf("Deseja testar outro numero? (1 - Sim, 0 - Nao): ");
+        scanf("%d", &continuar); 
     }
-    else (a/2!=0){
-        printf("numero impar")
-    }
 
-
+    return 0;
 }
