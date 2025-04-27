@@ -10,7 +10,4 @@ int main() {
     else (a/2!=0){
         printf("numero impar")
     }
-
-
-
 }
