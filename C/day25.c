@@ -1,3 +1,4 @@
+//Numero Primo
 #include <stdio.h>
 #include <stdlib.h>
 
