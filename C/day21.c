@@ -2,23 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int soma(int a, int b){
-    return a + b;
-}
-int sub(int a, int b){
-    return a - b;
-}
-int mult(int a, int b){
-    return a * b;
-}
-float divisao(int a, int b) {
-    if (b == 0) {
-        printf("Erro: Divisao por zero!\n");
-        return 0; 
-    }
-    return (float)a / b; 
-}
-
 int main(){
     int opcao;
     int a, b;
@@ -40,20 +23,20 @@ int main(){
 
     switch (opcao) {
         case 1: 
-        printf("Resultado: %d\n", soma(a, b));
+        printf("Voce escolheu Adicao\n");
         break;
 
 
         case 2: 
-        printf("Resultado: %d\n", sub(a, b));
+        printf("Voce escolheu Subtracao\n");
         break;
 
         case 3: 
-        printf("Resultado: %d\n", mult(a, b));
+        printf("Voce escolheu multiplicacao\n");
         break;
 
         case 4: 
-        printf("Resultado: %.2f\n", divisao(a, b));
+        printf("Voce escolheu divisao\n");
         break;
 
         case 5: 
@@ -62,7 +45,7 @@ int main(){
 
         default:
         printf("Opcao invalida! Tente novamente.\n");
-    } while (opcao != 5);
+    } 
 
     return 0;
 }
