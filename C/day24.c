@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // fatorial
+=======
+//Fatorial
+>>>>>>> 2aea6f9a717aaa4abdb1501340884f16a49d5766
 #include <stdio.h>
 #include <stdlib.h>
 
