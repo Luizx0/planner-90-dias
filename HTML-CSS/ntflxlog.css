@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .login-bg {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/5bdf6834-4d77-4a62-a408-8598653c8c84/e13a95b1-12fc-4d6c-b931-73bfb1f1e9e7/BR-pt-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    width: 470px;
+    border-radius: 4px;
+  }
+  
+  .login-container h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 16px;
+    background: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 0px;
+    color: #b3b3b3;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  
+  .options a {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  
+  .signup {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+  
+  .signup a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .signup small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #8c8c8c;
+  }
+  
