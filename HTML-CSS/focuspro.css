@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  .topo {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #1e90ff;
+  }
+  
+  /* Seção de destaque */
+  .destaque {
+    background: linear-gradient(to right, #000, #1e1e1e);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .destaque h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .destaque p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .botao {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: #0070cc;
+  }
+  
+  /* Recursos */
+  .recursos {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .recursos h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .recursos ul {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .recursos li {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  /* Preço */
+  .preco {
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .preco h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .preco p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Rodapé */
+  .rodape {
+    background-color: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .topo {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav a {
+      margin: 10px 0 0 0;
+    }
+  
+    .destaque h1 {
+      font-size: 2rem;
+    }
+  
+    .recursos li {
+      font-size: 0.95rem;
+    }
+  
+    .preco p {
+      font-size: 1.2rem;
+    }
+  }
+  
