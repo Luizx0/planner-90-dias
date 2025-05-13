@@ -1,3 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 1vh;
+}
+
+main {
+  max-width: 370vh;
+  margin: auto;
+  background: #fff;
+  padding: 1vh;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(214, 214, 214, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+input {
+  max-width: 70vh;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:invalid {
+  border-color: red;
+  background-color: #ffe5e5;
+}
+
+input:valid {
+  border-color: green;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #0e639c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  max-width: 20vh;
+}
+
+button:hover {
+  background: #094a75;
+}
+
 /* Logo do site */
 .logo {
   font-size: 1.5rem;
