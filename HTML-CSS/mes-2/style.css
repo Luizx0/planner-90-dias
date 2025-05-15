@@ -94,3 +94,37 @@ button:hover {
 .menu a.ativo {
   border-bottom: 2px solid #e50914;
 }
+
+body.sucesso {
+  background-color: #f0f8ff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.sucesso .container {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.sucesso .botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff1c1c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.sucesso .botao:hover {
+  background-color: #7c1010;
+}
