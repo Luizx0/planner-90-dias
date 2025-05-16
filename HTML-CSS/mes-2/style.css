@@ -128,3 +128,17 @@ body.sucesso {
 .sucesso .botao:hover {
   background-color: #7c1010;
 }
+
+nav.depoiment {
+  margin-top: auto;
+  padding: 12px;
+  background: #0e639c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  max-width: 20vh;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
