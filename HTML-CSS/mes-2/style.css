@@ -129,16 +129,72 @@ body.sucesso {
   background-color: #7c1010;
 }
 
-nav.depoiment {
-  margin-top: auto;
-  padding: 12px;
-  background: #0e639c;
-  color: white;
-  font-size: 16px;
+.blocos-depoimentos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.depoimento {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.depoimento img {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.depoimento .texto {
+  flex-grow: 1;
+}
+
+.formulario-depoimento {
+  background: #fff;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button.depoimento {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background: #e50914;
+  color: #fff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s;
-  max-width: 20vh;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+} 
+
+button.depoimento:hover {
+background: #640d0d;
 }
+
+.depoimento{
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+  }
+}
+
