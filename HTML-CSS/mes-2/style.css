@@ -212,3 +212,33 @@ button.depoimento:hover {
   transform: scale(1.05); 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* Animação para o título */
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.05); 
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
+.titulo-animado {
+  animation: fadeIn 2s ease-in; 
+}
+
+.pulsar:hover {
+  animation: pulse 1.5s infinite; 
+}
