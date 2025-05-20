@@ -242,3 +242,40 @@ button.depoimento:hover {
 .pulsar:hover {
   animation: pulse 1.5s infinite; 
 }
+
+body.tema-escuro{
+  background-color: #1b1b1b;
+  color: #f0f0f0;
+}
+
+main.tema-escuro{
+  background: #1b1b1b; 
+  color: #f0f0f0;
+}
+
+body.tema-escuro .depoimento{
+  background: #1b1b1b; 
+  color: #f0f0f0;
+}
+
+body.tema-escuro .formulario-depoimento {
+  background: #2a2a2a; 
+  color: #f0f0f0; 
+  border: 1px solid #444; 
+}
+
+button.botao-tema{
+  padding: 8px 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+body.tema-escuro button.botao-tema{
+  background-color: #ddd ;
+  color: black;
+}
