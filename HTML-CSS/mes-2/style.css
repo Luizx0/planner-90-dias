@@ -279,3 +279,25 @@ body.tema-escuro button.botao-tema{
   background-color: #ddd ;
   color: black;
 }
+
+/* Media Query para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column; /* Muda a direção da lista de links para coluna */
+    align-items: center; /* Centraliza os itens */
+  }
+}
+
+/* Media Query para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .menu {
+    gap: 10px; /* Reduz o espaço entre os itens do menu */
+  }
+}
+
+/* Media Query para telas grandes (desktops) */
+@media (min-width: 1025px) {
+  main {
+    max-width: 800px; /* Aumenta a largura máxima do main */
+  }
+}
