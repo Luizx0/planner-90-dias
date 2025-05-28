@@ -13,7 +13,7 @@ int multiplicacao(int a, int b){
     return a * b;
 }
 float divisao(float a, float b){
-    if(b > 0 ){
+    if(b != 0 ){
         return a / b;
     } else {
         printf("Nao é possivel dividir!");
