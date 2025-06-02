@@ -33,7 +33,7 @@ do {
     printf("\n4 - Divisao");
     printf("\n5 - Sair");
 
-    printf("\nEscolha uma opção: ");
+    printf("\nEscolha uma opcao: ");
     scanf("%d", &opcao);
 
     if (opcao >= 1 && opcao <=4){
