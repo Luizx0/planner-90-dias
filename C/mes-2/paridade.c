@@ -3,7 +3,7 @@
 int main() {
     int i = 0;
 
-    printf("Números pares de 0 a 20:\n");
+    printf("Numeros pares de 0 a 20:\n");
 
     do {
         if (i % 2 == 0) {
