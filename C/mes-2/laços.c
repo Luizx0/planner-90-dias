@@ -2,37 +2,41 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Dia 56 - Calcular o comprimento de uma frase e contar quantas letras "a" ela possui
+
+
+
+
+
+
+
 // Dia 55 - Comparar duas palavras usando strcmp() e informar se são iguais
-int main() {
-    char str1[100];
-    char str2[100];
+// int main() {
+//     char str1[100];
+//     char str2[100];
 
-    printf("Digite uma string: ");
-    fgets(str1, sizeof(str1), stdin);
+//     printf("Digite uma string: ");
+//     fgets(str1, sizeof(str1), stdin);
 
-    printf("Digite outra string: ");
-    fgets(str2, sizeof(str2), stdin);
+//     printf("Digite outra string: ");
+//     fgets(str2, sizeof(str2), stdin);
 
-    // Remove o '\n' das strings
-    str1[strcspn(str1, "\n")] = '\0';
-    str2[strcspn(str2, "\n")] = '\0';
+//     // Remove o '\n' das strings
+//     str1[strcspn(str1, "\n")] = '\0';
+//     str2[strcspn(str2, "\n")] = '\0';
 
-    if (strcmp(str1, str2) == 0) {
-        printf("As palavras \"%s\" sao iguais.\n", str1);
-    } else {
-        printf("As palavras \"%s\" e \"%s\" nao sao iguais.\n", str1, str2);
-    }
+//     if (strcmp(str1, str2) == 0) {
+//         printf("As palavras \"%s\" e \"%s\" sao iguais.\n", str1, str2);
+//     } else {
+//         printf("As palavras \"%s\" e \"%s\" nao sao iguais.\n", str1, str2);
+//     }
 
-    return 0;
-}
-
-
+//     return 0;
+// }
 
 
 
-
-
-// Dia 54 - Buscar uma letra em uma string e interromper o loop com break ao encontrar
+//Dia 54 - Buscar uma letra em uma string e interromper o loop com break ao encontrar
 // int main(){
 //     char str[100];
 //     char letra;
@@ -50,10 +54,9 @@ int main() {
 //             encontrado = 1;
 //             break;
 //         }
-//         if (!encontrado){
-//             printf("\nNao foi encontrada a letra %c na frase", letra);
-//             break;
-//         }
+//     }
+//     if (!encontrado){
+//         printf("\nNao foi encontrada a letra %c na frase", letra);
 //     }
 //     return 0;
 // }
