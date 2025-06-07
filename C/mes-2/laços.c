@@ -3,6 +3,33 @@
 #include <string.h>
 
 // Dia 56 - Calcular o comprimento de uma frase e contar quantas letras "a" ela possui
+#include <stdio.h>
+#include <string.h> 
+
+int main() {
+    char frase[200];
+    int comprimento = 0;
+    int contadorA = 0;
+
+    printf("Digite uma frase: ");
+    fgets(frase, sizeof(frase), stdin);
+
+    // Remove o '\n' que o fgets pode capturar
+    frase[strcspn(frase, "\n")] = 0;
+
+    comprimento = strlen(frase);
+
+    for (int i = 0; i < comprimento; i++) {
+        if (frase[i] == 'a' || frase[i] == 'A') {
+            contadorA++;
+        }
+    }
+
+    printf("\nComprimento da frase: %d caracteres", comprimento);
+    printf("\nQuantidade de letras 'a' ou 'A': %d\n", contadorA);
+
+    return 0;
+}
 
 
 
