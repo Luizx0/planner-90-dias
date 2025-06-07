@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Dia 57 - Verificar se uma string é um palíndromo (sem funções prontas além de string.h) 
+
+
+
 // Dia 56 - Calcular o comprimento de uma frase e contar quantas letras "a" ela possui
 #include <stdio.h>
 #include <string.h> 
