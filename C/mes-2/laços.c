@@ -2,42 +2,73 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Dia 58 - Criar script que sorteia um nome de uma lista 
+
+
+
 // Dia 57 - Verificar se uma string é um palíndromo (sem funções prontas além de string.h) 
+// int main() {
+//     char str[100];
+//     int i, j, tamanho;
+//     int ehPalindromo = 1;
+
+//     printf("Digite uma palavra ou frase: ");
+//     fgets(str, sizeof(str), stdin);
+
+//     // Remover o caractere de nova linha, se houver
+//     tamanho = strlen(str);
+//     if (str[tamanho - 1] == '\n') {
+//         str[tamanho - 1] = '\0';
+//         tamanho--;
+//     }
+
+//     // Comparar os caracteres da frente com os de trás
+//     for (i = 0, j = tamanho - 1; i < j; i++, j--) {
+//         if (str[i] != str[j]) {
+//             ehPalindromo = 0;
+//             break;
+//         }
+//     }
+
+//     if (ehPalindromo) {
+//         printf("Eh um palindromo!\n");
+//     } else {
+//         printf("Nao eh um palindromo.\n");
+//     }
+
+//     return 0;
+// }
 
 
 
 // Dia 56 - Calcular o comprimento de uma frase e contar quantas letras "a" ela possui
-#include <stdio.h>
-#include <string.h> 
+// #include <stdio.h>
+// #include <string.h> 
 
-int main() {
-    char frase[200];
-    int comprimento = 0;
-    int contadorA = 0;
+// int main() {
+//     char frase[200];
+//     int comprimento = 0;
+//     int contadorA = 0;
 
-    printf("Digite uma frase: ");
-    fgets(frase, sizeof(frase), stdin);
+//     printf("Digite uma frase: ");
+//     fgets(frase, sizeof(frase), stdin);
 
-    // Remove o '\n' que o fgets pode capturar
-    frase[strcspn(frase, "\n")] = 0;
+//     // Remove o '\n' que o fgets pode capturar
+//     frase[strcspn(frase, "\n")] = 0;
 
-    comprimento = strlen(frase);
+//     comprimento = strlen(frase);
 
-    for (int i = 0; i < comprimento; i++) {
-        if (frase[i] == 'a' || frase[i] == 'A') {
-            contadorA++;
-        }
-    }
+//     for (int i = 0; i < comprimento; i++) {
+//         if (frase[i] == 'a' || frase[i] == 'A') {
+//             contadorA++;
+//         }
+//     }
 
-    printf("\nComprimento da frase: %d caracteres", comprimento);
-    printf("\nQuantidade de letras 'a' ou 'A': %d\n", contadorA);
+//     printf("\nComprimento da frase: %d caracteres", comprimento);
+//     printf("\nQuantidade de letras 'a' ou 'A': %d\n", contadorA);
 
-    return 0;
-}
-
-
-
-
+//     return 0;
+// }
 
 
 
