@@ -1,8 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 // Dia 58 - Criar script que sorteia um nome de uma lista 
+int main() {
+    char *nomes[] = {"Ana", "Bruno", "Carla", "Diego", "Elisa"};
+    int total_nomes = sizeof(nomes) / sizeof(nomes[0]);
+
+    // Inicializa o gerador de números aleatórios com o tempo atual
+    srand(time(NULL));
+
+    // Sorteia um índice entre 0 e total_nomes - 1
+    int indice_sorteado = rand() % total_nomes;
+
+    printf("Nome sorteado: %s\n", nomes[indice_sorteado]);
+
+    return 0;
+}
 
 
 
