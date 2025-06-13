@@ -45,10 +45,25 @@
     </div>
   </section>
 
-  <footer id="contato">
-    <p>&copy; 2025 RotinaXP. Todos os direitos reservados.</p>
-    <p>Email: contato@RotinaXP.com | GitHub: <a href="https://github.com/seuusuario" target="_blank">/seuusuario</a></p>
-  </footer>
+<footer id="contato">
+  <section class="contato">
+    <h2>Entre em contato</h2>
+    <form action="sucesso.html" method="post" novalidate>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required minlength="3" placeholder="Seu nome completo">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Digite sua mensagem..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p class="info-footer">Ou envie um email para: <a href="mailto:contato@RotinaXP.com">contato@RotinaXP.com</a></p>
+  </section>
+</footer>
+
 
 </body>
 </html>
