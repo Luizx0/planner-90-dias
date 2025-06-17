@@ -16,6 +16,7 @@
       <a href="#depoimentos">Depoimentos</a>
       <a href="#contato">Contato</a>
       <a href="produtos.html">Loja</a>
+      <a href="painel-habitos.html">Habitos</a>
     </nav>
   </header>
 
@@ -59,16 +60,29 @@
 
       <form action="sucesso.html" method="post" novalidate>
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required minlength="3" placeholder="Seu nome completo">
+        <input type="text" id="nome" name="nome" required minlength="3" placeholder="Digite seu nome completo">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+        <input type="email" id="email" name="email" required placeholder="Digite seu melhor email">
+
+        <label for="telefone">Telefone (opcional):</label>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" placeholder="Somente números">
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+          <option value="">Selecione...</option>
+          <option value="duvida">Dúvida</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="elogio">Elogio</option>
+          <option value="outro">Outro</option>
+        </select>
 
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Digite sua mensagem..."></textarea>
+        <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Digite sua mensagem aqui..."></textarea>
 
         <button type="submit">Enviar</button>
       </form>
+
 
       <p class="info-footer">
         Ou envie um email para: 

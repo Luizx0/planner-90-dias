@@ -420,109 +420,29 @@ footer a:focus {
   text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.contato select,
+.contato input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #112240;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #0a192f;
+  font-size: 1rem;
+  transition: border 0.3s;
 }
 
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  background-color: #f7f7f7;
-  color: #333;
+.contato select:invalid,
+.contato input:invalid,
+.contato textarea:invalid {
+  border-color: #ff4d4d;
+  background-color: #ffe6e6;
 }
 
-.topo {
-  background-color: #1b1b1b;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+.contato select:valid,
+.contato input:valid,
+.contato textarea:valid {
+  border-color: #64ffda;
 }
 
-.topo nav a {
-  margin: 0 10px;
-  color: #e0e0e0;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.topo nav a:hover {
-  color: #e50914;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #e50914;
-  color: white;
-}
-
-.hero h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.hero .botao {
-  display: inline-block;
-  margin-top: 20px;
-  background: white;
-  color: #e50914;
-  padding: 12px 25px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.recursos, .depoimentos {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.recursos ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.recursos li {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-}
-
-.bloco-depoimento {
-  display: flex;
-  align-items: center;
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-.bloco-depoimento img {
-  width: 70px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-footer {
-  text-align: center;
-  background: #1b1b1b;
-  color: white;
-  padding: 20px;
-  margin-top: 40px;
-}
-
-footer a {
-  color: #e0e0e0;
-  text-decoration: none;
-} */
